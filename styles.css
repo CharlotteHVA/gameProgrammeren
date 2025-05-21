@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+    background-color: #191919;
+    color: #FAFAFA;
+    font-family: "Source Code Pro", monospace;
+
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 4em;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+
+    height: 90vh;
+}
+
+button {
+    height: 2em;
+    width: 10em;
+    background-color: #191919;
+    outline: #FAFAFA .1em solid;
+
+    font-size: 2em;
+}
+
+input {
+    height: 1em;
+    width: 20em;
+    background-color: #191919;
+    outline: #FAFAFA .1em solid;
+    font-size: 2em;
+
+    margin-bottom: 1em;
+    margin-top: 1em;
+    padding: .5em;
+}
+
+section > h2 {
+    font-size: 5em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+section > p {
+    width: 75%;
+    font-size: 2em;
+    text-align: center;
+
+    margin-bottom: 1em;
+}
+
+body > div {
+    height: 90vh;
+}
+
+body > section > div {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+
+    width: 100%;
+}
+
+div > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 30%;
+    height: 10em;
+
+    background-color: #191919;
+    outline: #FAFAFA .1em solid;
+
+    margin: 1em;
+}
+
+h3 {
+    font-size: 2em;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+body > div {
+    height: 90vh;
+}
+
+body > div > section {
+    height: fit-content;
+}
+
+body > div > section:first-of-type p {
+    width: fit-content;
+    font-size: 1em;
+    outline: #FAFAFA .1em solid;
+    background-color: #2D2D2D;
+    padding: 1em;
+}
+
+body > div > section p {
+    width: fit-content;
+    font-size: 1em;
+    background-color: #2D2D2D;
+    padding: 1em;
+}
+
+body > div h2 {
+    font-size: 2em;
+}
+
+body > div > section {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+    flex-flow: row;
+}
+
+body > div > section:last-of-type {
+    width: 100%;
+    height: 80%;
+    outline: #FAFAFA .1em solid;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+}
+
+body > div > section:last-of-type button {
+    margin: 1em;
+}
+
+section > div > button {
+    margin: 1em;
+    text-transform: uppercase;
+}
+
+/* -----------------------------------
+             INVENTORY  
+------------------------------------ */ 
+
+.inventory {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column;
+
+    height: 90vh;
+    width: 100%;
+
+    outline: none;
+    text-transform: uppercase;
+}
+
+.inventory h2 {
+    font-weight: 400;
+}
+
+.inventory > div {
+    margin: 0;
+    width: 100%;
+    height: 45%;
+
+    display: flex;
+    justify-content: space-between;
+
+    outline: none;
+}
+
+/* alle divs onderaan */
+.inventory > div > div { 
+    margin: 0;
+    width: 49%;
+    height: 100%;
+}
+
+/* tweede row van divs */
+.inventory > div:first-of-type {
+    margin: 0;
+    height: 30%;
+}
+
+.inventory > div:last-of-type {
+    margin: 0;
+    height: 60%;
+}
+
+.inventory > div:last-of-type > div {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+
+    width: 32%;
+}
+
+.inventory > div:last-of-type > div h2 {
+    margin: .5em;
+}
+
+.inventory > div:last-of-type > div:last-of-type {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: column;
+    outline: none;
+}
+
+.inventory > div:last-of-type > div:last-of-type button {
+    text-transform: uppercase;
+}
+
+.inventory > section {
+    outline: none;
+}
+
+.inventory section:first-of-type {
+    outline: none;
+
+    display: flex;
+    justify-content: start;
+    height: fit-content;
+}
+
+
+
+
+
