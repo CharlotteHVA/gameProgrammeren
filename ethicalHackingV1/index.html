@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hackademy</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<!-- turn off the sections that are not activated.  -->
+<body>
+    <section>
+        <h2>Word een Ethical Hacker</h2>
+        <p>Los digitale puzzels op, kraak codes en leer hoe echte hackers denken – op een legale manier.</p>
+        <button>Start nu</button>  <!-- when clicked upon it will turn on the next section and turn of this one -->
+    </section>
+    <section>
+        <h2>Welkom, recruit. <br>Wat is jouw codenaam?</h2>
+        <input type="text" placeholder="Type name">
+        <button>Inloggen</button> <!-- when clicked upon it will turn on the next section and turn of this one -->
+    </section>
+    <section>
+        <h2>Missieoverzicht</h2>
+        <p>Kies een level. Verdien XP om meer tools en missies te unlocken.</p>
+        <div>
+            <div> <!--  Is this good as for schemantic correct, or do I need to use sections, my thought was that it is mostly for design purpose. -->
+                <h3>LEVEL 1</h3>
+            </div>
+            <div>
+                <h3>LEVEL 2</h3>
+            </div>
+            <div>
+                <h3>LEVEL 3</h3>
+            </div>
+            <div>
+                <h3>LEVEL 4</h3>
+            </div>
+            <div>
+                <h3>LEVEL 5</h3>
+            </div>
+            <div>
+                <h3>Code log</h3>
+            </div>
+        </div>
+    </section>
+    <div>
+        <section>
+            <h2>Hackademy</h2>
+            <p id="hint">Hint: Probeer speciale karakters…</p> <!--  komt als er 1 of 2 fouten zijn gemaakt -->
+        </section>
+        <section>
+            <p>Gebruik commando’s om het juiste bestand te vinden. Probeer ls, cd, cat.</p>
+            <div>
+                <p>Informatie uit inventory (IQ, NAME, ETC.)</p>
+            </div>
+            <p id="timer">0</p>
+        </section>
+        <section>
+            <button>Controleer</button>
+        </section>
+    </div>
+    <section>
+        <h2>Missie Geslaagd!</h2>
+        <p>Je hebt de flag gevonden en het systeem succesvol gepenetreerd.</p>
+        <div>
+            <button>Inventory</button>  <!-- when clicked upon it will turn on the next section and turn of this one -->
+            <button>Volgende missie</button> 
+            <button>Overzicht</button> 
+        </div>
+        <div>
+            <p>Informatie uit inventory (IQ, NAME, ETC.)</p>
+        </div>
+    </section>
+        <section>
+        <h2>Missie mislukt!</h2>
+        <p>Je bent te vaak betrapt, of je IQ is opgeraakt. De aanval is mislukt.</p>
+        <div>
+            <button>Inventory</button>  <!-- when clicked upon it will turn on the next section and turn of this one -->
+            <button>Missie opnieuw</button> 
+            <button>Overzicht</button> 
+        </div>
+        <div>
+            <p>Informatie uit inventory (IQ, NAME, ETC.)</p>
+        </div>
+    </section>
+    <div class="inventory">
+        <section>
+            <h2>Hackademy</h2>
+        </section>
+        <div>
+            <div>
+                <h2>info</h2>
+            </div>
+            <div>
+                <h2>tools</h2>
+            </div>
+        </div>
+        <div>
+            <div>
+                <h2>badges</h2>
+            </div>
+            <div>
+                <h2>stats</h2>
+            </div>
+            <div>
+                <button>Terug</button> 
+                <button>Reset</button> 
+                <button>Certificaat</button> 
+                <button>Levels</button> 
+            </div>
+        </div>
+    </div>
+</body>
+</html>
